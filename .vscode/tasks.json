@@ -59,7 +59,8 @@
         },
         {
             "type": "npm",
-            "label": "Serve files with automatic browser loading",
+            "label": "Serve",
+            "detail": "Serve files with automatic browser loading",
             "script": "serve",
             "isBackground": true,
             "presentation": {
