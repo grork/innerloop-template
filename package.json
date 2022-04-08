@@ -7,7 +7,7 @@
     "build": "tsc",
     "clean": "rimraf output",
     "compile": "tsc",
-    "copy-dependencies": "copyfiles --exclude \"node_modules/**\" --exclude \"output/**\" \"**/*.html\" output && copyfiles --exclude \"node_modules/**\" --exclude \"output/**\" \"**/*.css\" output && copyfiles -f node_modules/js-confetti/dist/js-confetti.browser.js output",
+    "copy-dependencies": "copyfiles --exclude \"node_modules/**\" --exclude \"output/**\" \"**/*.html\" output && copyfiles --exclude \"node_modules/**\" --exclude \"output/**\" \"**/*.css\" output",
     "postbuild": "npm run copy-dependencies",
     "serve": "browser-sync start --server output --watch --no-ui --listen localhost --no-online --no-open --reload-debounce 250",
     "watch-all": "npm-watch",
