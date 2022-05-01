@@ -1,20 +1,14 @@
 :root {
     color-scheme: light dark;
     --text-colour: rgb(19, 19, 19);
-    --alt-text-colour: rgb(223, 221, 221);
     --page-background: white;
-    --shortcut-background: rgba(209, 209, 209, 0.5);
-    --date-add-text-background-colour: #a7a7a7;
     --hyperlink-colour: blue;
 }
 
 @media (prefers-color-scheme: light) {
     .force-dark {
         --text-colour: white;
-        --alt-text-colour: rgb(121, 121, 121);
         --page-background: rgb(48, 48, 48);
-        --shortcut-background: rgba(19, 19, 19, 0.5);
-        --date-add-text-background-colour: #363636;
         --hyperlink-colour: rgb(166, 166, 255);
     }
 }
@@ -22,19 +16,13 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --text-colour: white;
-        --alt-text-colour: rgb(121, 121, 121);
         --page-background: rgb(48, 48, 48);
-        --shortcut-background: rgba(19, 19, 19, 0.5);
-        --date-add-text-background-colour: #363636;
         --hyperlink-colour: rgb(166, 166, 255);
     }
 
     .force-light {
         --text-colour: rgb(19, 19, 19);
-        --alt-text-colour: rgb(223, 221, 221);
         --page-background: white;
-        --shortcut-background: rgba(209, 209, 209, 0.5);
-        --date-add-text-background-colour: #a7a7a7;
         --hyperlink-colour: blue;
     }
 }
