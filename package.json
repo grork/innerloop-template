@@ -1,7 +1,7 @@
 {
   "name": "codevoid.innerlooptemplate",
   "version": "0.0.1",
-  "description": "Innerloop Template",
+  "description": "Inner Loop Template",
   "main": "app.js",
   "scripts": {
     "build": "tsc",

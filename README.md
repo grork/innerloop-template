@@ -1,5 +1,5 @@
-# Innerloop Template
-Open the folder, start typing HTML, CSS, TypeScript. Debugging & Autoreload, all
+# Inner Loop Template
+Open the folder, start typing HTML, CSS, TypeScript. Debugging & Auto-reload, all
 right from [VS Code](https://code.visualstudio.com) or [Panic Nova](https://nova.app).
 
 Just clone this repo, or download  it's contents, NPM install, and off you go!
@@ -33,11 +33,11 @@ Just open the folder in Nova. Build & Debug task are automatically configured.
 4. Open the folder in your chosen editor tool chain
 
 # Commands
-There are a nubmer of `npm` commands that can be run to build, run, compile etc.
+There are a number of `npm` commands that can be run to build, run, compile etc.
 
 |        Command       |                          Purpose                      |
 |----------------------|-------------------------------------------------------|
-| `build`              | Compiles the TypeScript, copies dependendencies to `output` |
+| `build`              | Compiles the TypeScript, copies dependencies to `output` |
 | `compile`            | Compiles the TypeScript to `output`                   |
 | `clean`              | Clears `output` by deleting it                        |
 | `copy-dependencies`  | Copies just the non-TypeScript files to `output`       |
